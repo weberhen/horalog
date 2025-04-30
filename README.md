@@ -2,8 +2,7 @@
 
 HoraLog is a simple, self-hosted web application built with Python and Gradio to help you track the time you spend on different projects throughout the day.
 
-![HoraLog Screenshot](placeholder_screenshot.png)
-*(Replace this line and `placeholder_screenshot.png` with an actual screenshot of your running app!)*
+![HoraLog Screenshot](logo.png)
 
 ## Features ✨
 
@@ -33,7 +32,7 @@ HoraLog is a simple, self-hosted web application built with Python and Gradio to
 
 1.  **Clone or Download:**
     ```bash
-    git clone [<your-repository-url>](https://github.com/weberhen/horalog)
+    git clone https://github.com/weberhen/horalog
     cd horalog
     ```
 
