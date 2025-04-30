@@ -2,7 +2,7 @@
 
 HoraLog is a simple, self-hosted web application built with Python and Gradio to help you track the time you spend on different projects throughout the day.
 
-![HoraLog Screenshot](logo.png)
+![HoraLog Screenshot](screenshot.png)
 
 ## Features ✨
 
