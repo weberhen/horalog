@@ -1,10 +1,10 @@
-# HoraLog - Simple Gradio Time Tracker ⏳
+# HoraLog - Simple Gradio Time Tracker 
 
 HoraLog is a simple, self-hosted web application built with Python and Gradio to help you track the time you spend on different projects throughout the day.
 
 ![HoraLog Screenshot](screenshot.png)
 
-## Features ✨
+## Features 
 
 *   **Real-time Clock:** Displays the current time, updating every second.
 *   **Project Management:**
@@ -23,12 +23,12 @@ HoraLog is a simple, self-hosted web application built with Python and Gradio to
 *   **Manual Refresh:** A button to manually refresh the log history display.
 *   **Simple Web UI:** Runs as a local web server accessible from your browser.
 
-## Prerequisites 📋
+## Prerequisites 
 
 *   **Python:** Version 3.8 or higher recommended.
 *   **pip:** Python package installer (usually included with Python).
 
-## Installation & Setup ⚙️
+## Installation & Setup 
 
 1.  **Clone or Download:**
     ```bash
@@ -53,7 +53,7 @@ HoraLog is a simple, self-hosted web application built with Python and Gradio to
     pip install gradio pandas
     ```
 
-## Running the Application ▶️
+## Running the Application 
 
 1.  **Navigate:** Open your terminal or command prompt and navigate to the `horalog` directory where `main.py` is located.
 2.  **Run:** Execute the main script:
@@ -67,7 +67,7 @@ HoraLog is a simple, self-hosted web application built with Python and Gradio to
     Open your web browser and go to `http://127.0.0.1:7860` or `http://localhost:7860`. If you see `0.0.0.0`, you might also be able to access it from other devices on your local network using your computer's local IP address (e.g., `http://192.168.1.100:7860`).
 4.  **Stop:** To stop the application server, go back to the terminal where it's running and press `Ctrl + C`.
 
-## How to Use 🖱️
+## How to Use 
 
 1.  **Add Projects:** Use the "Project Name" text box under "Manage Projects" and click "Add Project". Your projects will appear in the main "Project" dropdown and be saved to `projects.txt`.
 2.  **Select Project:** Choose the project you are about to work on from the "Project" dropdown under "Log Work".
@@ -79,7 +79,7 @@ HoraLog is a simple, self-hosted web application built with Python and Gradio to
 6.  **Remove Project:** Select a project from the *main* "Project" dropdown and click "Remove Selected" under "Manage Projects".
 7.  **Refresh History:** Click the "🔄 Refresh Log History" button if you need to manually reload the log display from the CSV file (e.g., if you manually edited the file).
 
-## Data Storage 💾
+## Data Storage 
 
 The application uses two simple text files for persistence, created in the same directory as `main.py`:
 
@@ -92,7 +92,7 @@ The application uses two simple text files for persistence, created in the same 
 
 **Important:** Back up these files regularly if your time tracking data is critical!
 
-## Future Improvements 💡
+## Future Improvements 
 
 *   Editing or deleting past log entries.
 *   Filtering or searching the log history.
